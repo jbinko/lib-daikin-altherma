@@ -13,7 +13,7 @@ extern "C" {
 #endif
 
 #ifndef DAIKIN_LOCAL_IP
-#   define DAIKIN_LOCAL_IP      ("192.168.1.233")
+#   define DAIKIN_LOCAL_IP      ("169.254.126.120")
 #endif
 
 #ifndef DAIKIN_LOCAL_SN
@@ -32,7 +32,7 @@ extern "C" {
 // If DHCP cannot be reached it seem to default/fail back to 169.254.126.102 (after some time)
 // If switch 4 on DIP switch is enabled - Default static IP is 169.254.10.10
 #ifndef DAIKIN_REMOTE_IP
-#   define DAIKIN_REMOTE_IP     ("192.168.1.135")
+#   define DAIKIN_REMOTE_IP     ("169.254.126.102")
 #endif
 
 #ifndef DAIKIN_REMOTE_PORT
