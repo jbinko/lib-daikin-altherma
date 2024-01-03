@@ -110,6 +110,12 @@ This module has been successfully tested with following unites:
 
 - Daikin HVAC controller BRP069A62
 
+## Contributing
+
+If you want to contribute to this project, please contact me.
+
+I'm happy to include your contributions, new features, bug fixes, new platforms, etc.
+
 ## Acknowledgments
 
 This project was inspired by this one:
@@ -117,8 +123,3 @@ This project was inspired by this one:
 
 Dotnet version of the library is available here: 
 [https://github.com/jbinko/dotnet-daikin-altherma](https://github.com/jbinko/dotnet-daikin-altherma)
-
-## Contributing
-
-If you want to contribute to this project, please contact me.
-I'm happy to include your contributions, new features, bug fixes, new platforms, etc.
