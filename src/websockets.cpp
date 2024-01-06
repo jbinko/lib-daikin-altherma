@@ -32,7 +32,7 @@ static char* str_to_lower(
     LIBDAIKIN_ASSERT((s != NULL) && (strlen(s) > 0));
 
     for (char* p = s; *p; ++p)
-        *p = tolower(*p);
+        *p = (char)tolower(*p);
     return s;
 }
 
@@ -413,7 +413,7 @@ bool daikin_ws_open(daikin_t* const daikin)
         return false;
     }
 
-    len = ret;
+    len = (uint16_t)ret;
 
     // We need to terminate string
     if ((len + 1) > (uint16_t)sizeof(data))
