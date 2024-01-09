@@ -102,6 +102,8 @@ void     daikin_hal_tcp_close(daikin_hal_tcp_t* const tcp);
 
 ## Releases
 
+- Version Next
+  - Added CMakeLists.txt
 - Version 1.0.0 - Initial Version. Code complete and tested.
 
 ## Notes
